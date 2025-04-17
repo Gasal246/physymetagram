@@ -68,7 +68,7 @@ const InstaSheet = ({ children }: { children: React.ReactNode }) => {
                             onChange={(e) => setPassword(e.target.value)}
                         />
                         <div className='w-full justify-center flex'>
-                            <Button variant="outline" className='bg-transparent text-neutral-300 text-sm font-light w-[170px] border-slate-700'>Login Now</Button>
+                            <Button variant="outline" className='bg-transparent text-neutral-300 text-sm font-light w-[170px] border-slate-700'>Watch Now</Button>
                         </div>
                     </form>
                 </div>
