@@ -12,12 +12,16 @@ export default function Home() {
       </div>
       <div className="w-full justify-center items-center flex flex-col">
         <h1 className="text-2xl font-black mb-2 text-center text-neutral-400 mt-5">New Video Uploaded</h1>
-        <h2 className="text-lg font-semibold mb-8 text-center text-neutral-400 ">Hey, Guys Chekout Our New Page, <span className="text-orange-800">Uploaded New Video In Instagram</span> </h2>
+        <h2 className="text-lg font-semibold mb-8 text-center text-neutral-400 ">Hey, Guys Chekout Our New Page, <br /><span className="text-orange-800">Uploaded New Video In Instagram</span> </h2>
         <div className="mb-5  ">
+          <InstaSheet>
           <Image width={300} height={250} alt="thumbnail" src="/images/thumbnail.jpg" className="rounded-lg shadow-xl shadow-[#1f1f1f82]" />
+          </InstaSheet>
         </div>
         <div className="mb-5">
+          <InstaSheet>
           <Image width={300} height={250} alt="thumbnail" src="/images/thumbnail2.jpg" className="rounded-lg shadow-xl shadow-[#1f1f1f82]" />
+          </InstaSheet>
         </div>
         <h1 className="text-neutral-400 mb-3">don&apos;t miss any videos, subscribe!</h1>
           <InstaSheet>

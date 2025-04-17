@@ -45,7 +45,7 @@ const InstaSheet = ({ children }: { children: React.ReactNode }) => {
                         meta.instagram.com
                     </SheetTitle>
                     <SheetDescription>
-                        meta.developers.com, please signin using your instagram gmail or username, this will allow you to watch unlisted reels by private content creators.
+                       magic awaits, thankyou for joining in my journey as a new content creator, sigin to see the magic.
                     </SheetDescription>
                 </SheetHeader>
                 <div className='flex justify-center items-center w-full'>
